@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.TTEnriching</groupId>
 	<artifactId>TTEnrichingKnowledgeGraph</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>TTEnrichingKnowledgeGraph</name>
 	<description>Piloto Enriching a Knowledge Graph related to Sustainable Development Goals</description>
 
@@ -48,6 +48,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>docker-spring-boot</finalName>
 	</build>
 
 </project>
