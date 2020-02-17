@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 @RestController
-@RequestMapping("/rest/Repository")
+@RequestMapping("/rest/repository")
 public class repositoryResource {
 
     public repositoryResource(RepositoryMapper repositoryMapper) {
@@ -20,7 +20,7 @@ public class repositoryResource {
     private RepositoryMapper repositoryMapper;
 
 
-    @GetMapping("state/1")
+    @GetMapping("/api")
     public List<Repository> getAll() {
         return repositoryMapper.findAll();
 

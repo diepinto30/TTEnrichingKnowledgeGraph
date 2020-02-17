@@ -1,12 +1,28 @@
 package com.TTEnriching.TTEnriching.model;
 
-public class Repository {
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.List;
 
+@Table
+@Entity
+public class Repository implements Serializable {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long idrepository;
+
+    @Column
     private String origin;
+    @Column
     private String nameRepository;
+    @Column
     private String resource;
-    private Integer state;
-    private Integer idrepository;
+    @Column
+    private int state;
+
+
+
 
     public String getOrigin() {
         return origin;
@@ -32,19 +48,26 @@ public class Repository {
         this.resource = resource;
     }
 
-    public Integer getState() {
+    public int getState() {
         return state;
     }
 
-    public void setState(Integer state) {
+    public void setState(int state) {
         this.state = state;
     }
 
-    public Integer getIdrepository() {
+    public Long getIdrepository() {
         return idrepository;
     }
 
-    public void setIdrepository(Integer idrepository) {
+    public void setIdrepository(Long idrepository) {
         this.idrepository = idrepository;
+    }
+
+    public Repository() {}
+
+    @Override
+    public String toString() {
+        return "Repository [id= "+ idrepository +", origin= "+ origin+", nameRepository= "+ nameRepository+", resource= "+ resource+", state= "+ state+"]";
     }
 }

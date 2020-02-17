@@ -1,5 +1,6 @@
+com/TTEnriching/TTEnriching/resource/repositoryResource.class
 com/TTEnriching/TTEnriching/model/Repository.class
 com/TTEnriching/TTEnriching/TtEnrichingApplication.class
-com/TTEnriching/TTEnriching/resource/repositoryResource.class
-com/TTEnriching/TTEnriching/resource/helloResource.class
 com/TTEnriching/TTEnriching/mapper/RepositoryMapper.class
+com/TTEnriching/TTEnriching/resource/helloResource.class
+com/TTEnriching/TTEnriching/resource/AppResource.class
