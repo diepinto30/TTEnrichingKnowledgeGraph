@@ -1,30 +1,3 @@
-# ************************************************************
-# Sequel Pro SQL dump
-# Versión 4541
-#
-# http://www.sequelpro.com/
-# https://github.com/sequelpro/sequelpro
-#
-# Host: 127.0.01 (MySQL 5.7.24)
-# Base de datos: resourceRepository
-# Tiempo de Generación: 2020-02-19 03:49:00 +0000
-# ************************************************************
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
-
-# Volcado de tabla repositoryNew
-# ------------------------------------------------------------
-
-DROP TABLE IF EXISTS `repositoryNew`;
-
 CREATE TABLE `repositoryNew` (
   `idrepository` int(11) NOT NULL AUTO_INCREMENT,
   `origin` varchar(45) NOT NULL DEFAULT '',
@@ -44,15 +17,3 @@ VALUES
 	(3,'externo','example3','attrs==19.1.0\ncertifi==2019.3.9\nchardet==3.0.4\nDjango==2.1.9\ndjango-ckeditor==5.7.1\ndjango-js-asset==1.2.2\ngunicorn==19.9.0\nidna==2.8\njsonschema==3.0.1\nmysql-connector-python==8.0.16\nPillow==6.0.0\nprotobuf==3.7.1\nPyMySQL==0.9.3\npyrsistent==0.15.2\npytz==2019.1\nrequests==2.21.0\nsix==1.12.0\nurllib3==1.24.3\n',0),
 	(4,'externo','example4','',0),
 	(5,'externo','example5','',0);
-
-/*!40000 ALTER TABLE `repositoryNew` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
-
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
