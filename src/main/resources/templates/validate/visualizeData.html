@@ -112,6 +112,13 @@
                     "        <th scope='col' >State</th>\n" +
                     "    </tr>\n" +
                     "    </thead>";
+                tab += "<tr>";
+                tab += "<td>" + 1 + "</td>";
+                tab += "<th>" + externo + "</th>";
+                tab += "<th>" + dbpedia-data + "</th>";
+                tab += "<th class='responsive'>" + bdpedia.xml + "</th>";
+                tab += "<th>" + 1 + "</th>";
+                tab += '</tr>';
                 console.log("idrepository");
                 console.log(data[i].idrepository);
 
@@ -120,13 +127,13 @@
                     console.log(data[i].idrepository);
 
                     console.log("Todos los datos");
-                    tab += "<tr>";
+                    /*tab += "<tr>";
                     tab += "<td>" + data[i].idrepository + "</td>";
                     tab += "<th>" + data[i].origin + "</th>";
                     tab += "<th>" + data[i].nameRepository + "</th>";
                     tab += "<th class='responsive'>" + data[i].resource + "</th>";
                     tab += "<th>" + data[i].state + "</th>";
-                    tab += '</tr>';
+                    tab += '</tr>';*/
 
                     i++;
 
