@@ -1,5 +1,5 @@
 CREATE TABLE repositoryNew (
-  idrepository integer NULL AUTO_INCREMENT,
+  idrepository integer NOT NULL,
   origin varchar(45) NOT NULL,
   nameRepository varchar(45) NOT NULL,
   resource text  NOT NULL,
