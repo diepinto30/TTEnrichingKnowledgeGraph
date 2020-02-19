@@ -55,20 +55,23 @@
         <br>
     </div>
 
-    <div id="result"  class="highlight">
+    <div id="result">
 
     </div>
+
+    <br>
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2020 KBS, group. &middot; <a href="#">Diego Pinto</a> &middot; </p>
+    </footer>
 </div>
 <br>
 
 
 
-<!-- FOOTER -->
-<footer>
-    <hr>
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2020 KBS, group. &middot; <a href="#">Diego Pinto</a> &middot; </p>
-</footer>
+
 
 <!-- list -->
 <script>
@@ -120,7 +123,7 @@
                     tab += "<td>" + data[i].idrepository + "</td>";
                     tab += "<th>" + data[i].origin + "</th>";
                     tab += "<th>" + data[i].nameRepository + "</th>";
-                    tab += "<th>" + data[i].resource + "</th>";
+                    tab += "<th class='responsive'>" + data[i].resource + "</th>";
                     tab += "<th>" + data[i].state + "</th>";
                     tab += '</tr>';
 
